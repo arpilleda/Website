@@ -1,0 +1,181 @@
+.menu {
+	width: 50%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 48.445px;
+	margin-bottom: 48.445px;
+}
+
+.header {
+	height: 10vh;
+	padding: 0px;
+	grid-gap: 10px;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	font-size: 20px;
+	padding: 10px;	
+	color: white;
+	border: 3px white solid;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/kofibody.jpg);
+	background-position: top;
+	background-size: cover;
+}
+
+.container {
+	height: 900vh;
+	width: 75%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Cafe-Americano {
+	border: 3px white solid;
+	background-image: url(../images/cafeamericano.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.Cafe-Americano:hover {
+	background-image: url(../images/cafeamericano.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Cafe-Latte {
+	border: 3px white solid;
+	background-image: url(../images/cafelatte.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.Cafe-Latte:hover {
+	background-image: url(../images/cafelatte.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Cappuccino {
+	border: 3px white solid;
+	background-image: url(../images/cappuccino.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.Cappuccino:hover {
+	background-image: url(../images/cappuccino.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Babyccino {
+	border: 3px white solid;
+	background-image: url(../images/babyccino.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.Babyccino:hover {
+	background-image: url(../images/babyccino.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Espresso {
+	border: 3px white solid;
+	background-image: url(../images/espresso.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.Espresso:hover {
+	background-image: url(../images/espresso.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Flat-White {
+	border: 3px white solid;
+	background-image: url(../images/flatwhite.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.Flat-White:hover {
+	background-image: url(../images/flatwhite.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Macchiato {
+	border: 3px white solid;
+	background-image: url(../images/macchiato.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.Macchiato:hover {
+	background-image: url(../images/macchiato.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Mochaccino {
+	border: 3px white solid;
+	background-image: url(../images/mochaccino.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.Mochaccino:hover {
+	background-image: url(../images/mochaccino.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Vienna {
+	border: 3px white solid;
+	background-image: url(../images/vienna.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.Vienna:hover {
+	background-image: url(../images/vienna.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Affogato {
+	border: 3px white solid;
+	background-image: url(../images/affogato.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.Affogato:hover {
+	background-image: url(../images/affogatoo.png);
+	background-position: center;
+	background-size: cover;
+}

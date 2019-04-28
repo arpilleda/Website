@@ -1,0 +1,99 @@
+.menu {
+	width: 50%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 48.445px;
+	margin-bottom: 48.445px;
+}
+
+.header {
+	height: 10vh;
+	padding: 0px;
+	grid-gap: 10px;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	font-size: 20px;
+	padding: 10px;	
+	color: white;
+	border: 3px white solid;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(3fr 3fr);
+	height: 80vh;
+	grid-gap: 10px;
+}
+
+.facebook {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 10px;
+	margin-bottom: 10px;
+}
+
+.logofb {
+	background-image: url(../images/facebook.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.instagram {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 10px;
+	margin-bottom: 10px;
+}
+
+.logoig {
+	background-image: url(../images/instagram.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.hotline {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-gap: 10px;
+	margin-bottom: 10px;
+}
+
+.logohl {
+	background-image: url(../images/hotline.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	color: white;
+}
+
+.at {
+	margin-bottom: auto;
+	margin-top: auto;
+}

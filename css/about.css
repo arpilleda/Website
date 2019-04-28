@@ -1,0 +1,132 @@
+.menu {
+	width: 50%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 48.445px;
+	margin-bottom: 48.445px;
+}
+
+.header {
+	height: 10vh;
+	padding: 0px;
+	grid-gap: 10px;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	font-size: 20px;
+	padding: 10px;	
+	color: white;
+	border: 3px white solid;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.me  {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	height: 35vh;
+	padding: 0px;
+	grid-gap: 10px;
+	margin-bottom: 20px;
+}
+
+.image {
+	border: 3px white solid;
+	height: 35vh;
+	background-image: url(../images/myface.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.text {
+	text-align: center;
+	font-family: Bebas Neue;
+	font-size: 40px;
+	color: white;
+	border: 3px white solid;
+	height: 35vh;
+}
+
+.shop {
+	background-image: url(../images/origin.png);
+	background-position: center;
+	background-size: cover;
+	height: 35vh;
+	margin-bottom: 20px;
+}
+
+.container {
+	height: 35vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.how {
+	background-image: url(../images/how.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 3px white solid;
+	height: 35vh;
+}
+
+.why {
+	background-image: url(../images/why.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 3px white solid;
+	height: 35vh;
+}
+
+body {
+	background-image: url(../images/aboutbody.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.movie {
+	height: 70vh;
+	margin-bottom: 15px;
+	border: 3px white solid;
+	width: 1205.86px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+video {
+	height: 70vh;
+	position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+}
+
+.how:hover {
+	background-image: url(../images/howanswer.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all .5s ease-out;
+}
+
+.why:hover {
+	background-image: url(../images/whyanswer.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all .5s ease-out;
+}

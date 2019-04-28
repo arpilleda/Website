@@ -1,0 +1,58 @@
+.header {
+	height: 10vh;
+	margin-bottom: 10px;
+	padding: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.kofi {
+	background-image: url(../images/Kofi.png);	
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 10vh;
+}
+
+body {
+	background-image: url(../images/body.jpg);
+	background-position: top;
+	background-size: cover;
+}
+
+.menu {
+	width: 25%;
+	margin-top: 10px;
+	position: relative;
+	left: 70vh;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	font-size: 20px;
+	padding: 10px;	
+	color: white;
+	border: 3px white solid;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.body {
+	background-image: url(../images/Home.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 70vh;
+}
